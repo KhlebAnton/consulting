@@ -561,6 +561,9 @@ html {
     font-size: 12px;
     max-width: 282px;
 }
+.form-politics a:hover {
+    color: #2176FF;
+}
 .error-message {
     color: red;
     font-size: 14px;
