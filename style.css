@@ -229,7 +229,17 @@ html {
     padding: 70px 0 60px;
     position: relative;
 }
+.section_about::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: url('./img/about_bg.png')0 0 / contain no-repeat;
 
+}
 .section_support::before {
     content: '';
     position: absolute;
